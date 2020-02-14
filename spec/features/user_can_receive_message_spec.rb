@@ -1,6 +1,5 @@
 feature "user can receive message" do
   
-  # let(:sender) { create(:user, email: 'sender@example.com') } 
   let(:receiver) { FactoryBot.create(:user, email: 'receiver@example.com')}
   let(:sender) { FactoryBot.create(:user, email: 'sender@example.com') }
 
